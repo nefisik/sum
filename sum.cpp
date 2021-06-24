@@ -15,6 +15,7 @@ long long int sum(int n) {
 
 int main() {
     int n;
+    std::cout << "Введите n: ";
     std::cin >> n;
 	std::cout << sum(n) << std::endl;
 }
